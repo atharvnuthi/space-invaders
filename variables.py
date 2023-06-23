@@ -25,15 +25,24 @@ backgroundStart = GameImage("assets/2.png")
 backgroundOptions = GameImage("assets/3.png")
 
 #objects
-astro = Sprite("assets/as2.png")
-ship = Sprite("assets/sss.png")
+astro = Sprite("assets/astro.png")
+ship = Sprite("assets/shipm.png")
 fire = Sprite("assets/fire.png")
 astro.set_position(janW/2 - astro.width/2, janH-astro.height)
-ship.set_position(janW/2 - astro.width/2, 0+ship.height)
+
 
 #movements
 velShip = 400
 velAstro = 400
 velFire = 400
 
+#time
+shootFireTime = 3
+canShootFire = 0
+
+#ships
+x = 4
+y = 2
+
 fires = []
+ships = []
