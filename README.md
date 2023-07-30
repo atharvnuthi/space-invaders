@@ -1,4 +1,4 @@
-# Space Invaders
+# Space Invaders (incomplete)
 
 ### Made with PPlay and Pygame 
 
